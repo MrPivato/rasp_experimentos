@@ -4,6 +4,7 @@ Experimentos básicos com a GPIO do Raspberry pi.
 
 Experimento 1.
 ==============
+### Led blink
 ### Monte o seguinte circuito:
 ![alt text](imagens/led1.png "1° experimento")
 ### Código:
@@ -44,6 +45,7 @@ while True:
 
 Experimento 2.
 ==============
+### Led fade
 ### Monte o seguinte circuito:
 ![alt text](imagens/led1.png "2° experimento")
 ### Código:
@@ -94,6 +96,7 @@ while True:
 
 Experimento 3.
 ==============
+### Ligar led pelo terminal
 ### Monte o seguinte circuito:
 ![alt text](imagens/led2.png "3° experimento")
 ### Código:
@@ -180,6 +183,7 @@ while True:
 
 Experimento 4.
 ==============
+### Ler estado do botão
 ### Monte o seguinte circuito:
 ![alt text](imagens/button1.png "4° experimento")
 ### Código:
@@ -221,6 +225,7 @@ while True:
 
 Experimento 5.
 ==============
+### Operações lógicas
 ### Monte o seguinte circuito:
 ![alt text](imagens/button2.png "5° experimento")
 ### Código:
