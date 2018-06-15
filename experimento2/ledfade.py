@@ -1,4 +1,4 @@
-# livrarias necessarias
+# modulos necessarios
 import RPi.GPIO as GPIO
 import time
 import signal
@@ -37,5 +37,5 @@ while True:
     if brilho == 0 or brilho == 100:
         fade = -fade
 
-    time.sleep(0.01)
+    time.sleep(0.02)
     

@@ -10,19 +10,19 @@ led2 = 15
 led3 = 18
 
 # para poder usar os pinos
-GPIO.setmode( GPIO.BCM )
+GPIO.setmode(GPIO.BCM)
 
 # limpar a GPIO, caso preciso
-def limpa( signal, frame ):
+def limpa(signal, frame):
     GPIO.cleanup()
     sys.exit(0)
 
-signal.signal( signal.SIGINT, limpa )
+signal.signal(signal.SIGINT, limpa)
 
 # define pinos como saida
-GPIO.setup( led1, GPIO.OUT )
-GPIO.setup( led2, GPIO.OUT )
-GPIO.setup( led3, GPIO.OUT )
+GPIO.setup(led1, GPIO.OUT)
+GPIO.setup(led2, GPIO.OUT)
+GPIO.setup(led3, GPIO.OUT)
 
 while True:
 
@@ -72,4 +72,4 @@ while True:
     else:
         pass
 
-    GPIO.output( led, state )
+    GPIO.output(led, state)
