@@ -1,4 +1,4 @@
-# livrarias necessarias
+# modulos necessarios
 import RPi.GPIO as GPIO
 import time
 import signal
