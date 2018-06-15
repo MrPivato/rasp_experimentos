@@ -1,11 +1,13 @@
-# Experimentos básicos com a GPIO do Raspberry pi.
+Experimentos básicos com a GPIO do Raspberry pi.
+================================================
 
-## Experimento 1.
+
+Experimento 1.
+==============
 ### Monte o seguinte circuito:
 ![alt text](imagens/led1.png "1° experimento")
 ### Código:
 ```python
-
 # modulos necessarios
 import RPi.GPIO as GPIO
 import time
@@ -39,7 +41,9 @@ while True:
 ```
 [Link do código do experimento 1](experimento1/ledblink.py)
 
-## Experimento 2.
+
+Experimento 2.
+==============
 ### Monte o seguinte circuito:
 ![alt text](imagens/led1.png "2° experimento")
 ### Código:
@@ -87,7 +91,9 @@ while True:
 ```
 [Link do código do experimento 2](experimento2/ledfade.pyy)
 
-## Experimento 3.
+
+Experimento 3.
+==============
 ### Monte o seguinte circuito:
 ![alt text](imagens/led2.png "3° experimento")
 ### Código:
@@ -171,7 +177,9 @@ while True:
 ```
 [Link do código do experimento 3](experimento3/ledterminal.py)
 
-## Experimento 4.
+
+Experimento 4.
+==============
 ### Monte o seguinte circuito:
 ![alt text](imagens/button1.png "4° experimento")
 ### Código:
@@ -210,7 +218,9 @@ while True:
 ```
 [Link do código do experimento 4](experimento4/button.py)
 
-## Experimento 5.
+
+Experimento 5.
+==============
 ### Monte o seguinte circuito:
 ![alt text](imagens/button2.png "5° experimento")
 ### Código:
