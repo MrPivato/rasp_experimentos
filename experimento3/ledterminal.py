@@ -31,7 +31,7 @@ while True:
 
     print("Digite o estado: (1 = ligar, 0 = desligar)")
     state = input()
-    
+
     if True:
         if led == 1:
             if state == 1:
@@ -56,7 +56,7 @@ while True:
 
             else:
                 pass
-            
+
         elif led == 3:
             if state == 1:
                 state = True
@@ -68,7 +68,7 @@ while True:
 
             else:
                 pass
-         
+
     else:
         pass
 
