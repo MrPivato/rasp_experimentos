@@ -27,10 +27,10 @@ GPIO.setup(led3, GPIO.OUT)
 while True:
 
     print("Digite o numero do led que deseja ligar/desligar:")
-    led = input()
+    led = int(input())
 
     print("Digite o estado: (1 = ligar, 0 = desligar)")
-    state = input()
+    state = int(input())
 
     if True:
         if led == 1:
