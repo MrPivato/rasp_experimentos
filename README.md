@@ -91,7 +91,7 @@ while True:
 
     time.sleep(0.02)
 ```
-[Link do código do experimento 2](experimento2/ledfade.pyy)
+[Link do código do experimento 2](experimento2/ledfade.py)
 
 
 Experimento 3.
